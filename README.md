@@ -18,20 +18,24 @@ Meet Alex, an analyst at Contoso, Ltd., a leading company in the tech industry. 
 
 ### Core Assets
 * [Microhack Repository](https://github.com/microsoft/microhacks-knowledge-mining-ai)
-* [Microhack Deck - Agentic AI](docs/Microhack%20Deck%20-%20Knowledge%20Mining.pptx)
+* [Microhack Deck - Knowledge Mining AI](docs/Microhack%20Deck%20-%20Knowledge%20Mining.pptx)
 * [Microhack Challenges](https://blessing-sanusi.github.io/microhack-doc/)
 
 ### What you will learn
 
-By the end of this workshop, you will learn to build an agent app using Azure AI Agent Service, explore its tools, and effectively use instructions to guide the LLM.
+By the end of this workshop, you will learn how to Gain actionable insights from large volumes of conversational data by identifying key themes, patterns, and relationships. Using Azure AI Foundry, Azure AI Content Understanding, Azure OpenAI Service, and Azure AI Search, this solution analyzes unstructured dialogue and maps it to meaningful, structured insights.
+
+Capabilities such as topic modeling, key phrase extraction, speech-to-text transcription, and interactive chat enable users to explore data naturally and make faster, more informed decisions.
+
+Analysts working with large volumes of conversational data can use this solution to extract insights through natural language interaction. It supports tasks like identifying customer support trends, improving contact center quality, and uncovering operational intelligence—enabling teams to spot patterns, act on feedback, and make informed decisions faster.
 
 ## Setting the Stage
 
-To provide attendees with guidance and understanding on the Microhack goals, concepts, and technologies. You can leverage the [Microhack Deck - Agentic AI](docs/Microhack%20Deck%20-%20Agentic%20AI.pptx).
+To provide attendees with guidance and understanding on the Microhack goals, concepts, and technologies. You can leverage the [Microhack Deck - Knowledge Mining AI](docs/Microhack%20Deck%20-%20Knowledge%20Mining.pptx).
 
 ## Microhack Challenges
 
-To get started with this workshop, open the current [Microhack Challenges](docs/Microhack%20Challenges%20-%20Agentic%20AI.pdf).
+To get started with this workshop, open the current [Microhack Challenges](https://blessing-sanusi.github.io/microhack-doc/).
 
 ## Prerequisites
 
@@ -41,13 +45,6 @@ To participate in this workshop you will need:
 1. You need a GitHub account and GitHub Codespaces. If you don’t have a GitHub account, create one at [GitHub](https://github.com/join), and the free CodeSpaces benefit is sufficient to run this workshop.
 1. Sufficient Azure credits and quota to deploy the Azure resources required for the duration of this workshop. You should require less than USD$1.00 in consumption for a typical run-though of this workshop. Details are available in the "Solution Architecture" section of the Workshop Guide.
 
-# Conversation knowledge mining solution accelerator
-
-Gain actionable insights from large volumes of conversational data by identifying key themes, patterns, and relationships. Using Azure AI Foundry, Azure AI Content Understanding, Azure OpenAI Service, and Azure AI Search, this solution analyzes unstructured dialogue and maps it to meaningful, structured insights.
-
-Capabilities such as topic modeling, key phrase extraction, speech-to-text transcription, and interactive chat enable users to explore data naturally and make faster, more informed decisions.
-
-Analysts working with large volumes of conversational data can use this solution to extract insights through natural language interaction. It supports tasks like identifying customer support trends, improving contact center quality, and uncovering operational intelligence—enabling teams to spot patterns, act on feedback, and make informed decisions faster.
 
 <br/>
 
