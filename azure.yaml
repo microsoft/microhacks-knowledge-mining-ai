@@ -1,0 +1,26 @@
+# # yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+# metadata:
+#     template: azd-init@1.11.1
+environment:
+  name: conversation-knowledge-mining
+  location: eastus
+name: conversation-knowledge-mining
+metadata:
+  template: conversation-knowledge-mining@1.0
+
+hooks:
+  postprovision:
+    windows:
+      run: |
+        Write-Host "Web app URL: "
+        Write-Host "$env:WEB_APP_URL" -ForegroundColor Cyan
+      shell: pwsh
+      continueOnError: false
+      interactive: true
+    posix:
+      run: |
+        echo "Web app URL: "
+        echo $WEB_APP_URL
+      shell: sh
+      continueOnError: false
+      interactive: true
